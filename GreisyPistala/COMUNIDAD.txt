@@ -1,0 +1,153 @@
+ #COMUNIDAD
+identificacion 0.1
+nombre : Trebol
+poblacion: Barcelona
+***********************************
+
+#ZONA
+identificacion: E
+nombre: Escalera
+tipo_reparto: P
+***********************************
+ZONA
+identificacion: G
+nombre: Garaje
+tipo_reparto: I
+***********************************
+ZONA
+identificacion: C
+nombre: Zona comun
+tipo_reparto: I
+***********************************
+
+#PROPIEDAD
+
+Tipo    Codigo_propiedad       Metros      Codigo_propietario        Lista_porcentaje_zona        Informacion
+--------------------------------------------------------------------------------------------------------------------
+local          0-A              80                0.4                       8%E                 Banco Mundial  Banca
+local          0-B              90                0.5                       9%E                   Hercules  Seguros
+local          0-C              90                0.6                       9%E                   Caprabo  Alimentacion
+piso           1-A              90                0.7                      9%E  16%C                  VH;2
+piso           1-B             100                0.8                      10%E 16%C                  VH;3
+piso           1-C             100                0.9                      10%E 16%C                  VNH;3
+piso           2-A             150                0.1                      15%E 16%C                  VH;4
+piso           2-B             150                0.2                      15%E 16%C                  VH;4
+piso           2-C             150                0.3                      15%E 16%C                  VNH;4
+plaza          P03              15                0.1                      10%G                       A;S
+plaza          P04              15                0.2                      10%G                       A;S
+plaza          P05              15                03                       10%G                       A;S
+plaza          P06              15                0.4                      10%G                       C;N
+plaza          P07              15                1.0                      10%G                       C;N
+plaza          P08              15                1.1                      10%G                       C;N
+plaza          P09              15                1.2                      10%G                       C;N
+
+
+#PROPIETARIOS
+Codigo: 0.1
+Nombre_propietario: Jorge Salas
+poblacion: Barcelona
+email: jsalas@uoc.edu
+propiedades: 2-A P03
+***********************************
+PROPIETARIOS
+Codigo: 0.2
+Nombre_propietario: Jaime Rodriguez
+poblacion: Barcelona
+email: jrodriguez@uoc.edu
+propiedades: 2-B P04
+***********************************
+PROPIETARIOS
+Codigo: 0.3
+Nombre_propietario: Nestor Crespo
+poblacion: Barcelona
+email: ncrespo@uoc.edu
+propiedades: 2-C P05
+***********************************
+PROPIETARIOS
+Codigo: 0.4
+Nombre_propietario: Maria Gutierrez
+poblacion: Barcelona
+email: mgutierrez@uoc.edu
+propiedades: 0-A P06
+***********************************
+PROPIETARIOS
+Codigo: 0.5
+Nombre_propietario: Miguel Palacios
+poblacion: Barcelona
+email: mpalacios@uoc.edu
+propiedades: 20-B
+***********************************
+PROPIETARIOS
+Codigo: 0.6
+Nombre_propietario: Nuria Mas
+poblacion: Barcelona
+email: nmas@uoc.edu
+propiedades: 0-C
+***********************************
+PROPIETARIOS
+Codigo: 0.7
+Nombre_propietario: Ricardo Torres
+poblacion: Barcelona
+email: rtorres@uoc.edu
+propiedades: 1-A
+***********************************
+PROPIETARIOS
+Codigo: 0.8
+Nombre_propietario: Tomas Asensio
+poblacion: Barcelona
+email: tasensio@uoc.edu
+propiedades: 1-B
+***********************************
+PROPIETARIOS
+Codigo: 0.9
+Nombre_propietario: Enrique Alos
+poblacion: Barcelona
+email: ealos@uoc.edu
+propiedades: 1-C
+***********************************
+PROPIETARIOS
+Codigo: 1.0
+Nombre_propietario: Pedro Navarra
+poblacion: Barcelona
+email: pnavarra@uoc.edu
+propiedades: P07
+***********************************
+PROPIETARIOS
+Codigo: 1.1
+Nombre_propietario: Sergio Briban
+poblacion: Barcelona
+email: sbriban@uoc.edu
+propiedades: P08
+***********************************
+PROPIETARIOS
+Codigo: 1.2
+Nombre_propietario: Carlos Escudero
+poblacion: Barcelona
+email: cescudero@uoc.edu
+propiedades: P09
+***********************************
+
+#GASTOS
+id_gastos    servico        descripcion         importe        tipo_zonal
+-------------------------------------------------------------------------------
+L001          Luz           Escalera             56              E
+L002          Luz           Garaje               36              G
+A001          Agua          Escalera             30              E
+A002          Agua          Zona Comu            130             C
+AS01          Seguro        Escalera             600             E
+S002          Seguro        Garaje               300             G
+S003          Seguro        Piscina              150             C
+LI01          Limpieza      Escalera             1200            E
+LI02          Limpieza      Zona Comun           600             C
+REIX          Rejas         Jardin               1500            C
+JARD          Jardinero     jardin               1500            C
+ANTE          Antena        Comunitaria          700             C
+***********************************
+
+#RESUMEN
+Comunidad: 0.1 Trebol
+Numero de Zonas: 3
+Numero de Propiedades:  16
+Numero de Propietarios: 12
+Numero de Gastos:  12
+***********************************

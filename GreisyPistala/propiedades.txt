@@ -1,0 +1,23 @@
+*** propiedades ***
+
+ tipo   Cod	m2	C.	       lista_zona	Informacion 
+-----------------------------------------------------------------------------------------------------------
+local   0-A	80	04		8%E      	Banco Mundial  Banca	 
+local   0-B	90	05		9%E 		Hercules  Seguros	
+local   0-C	90	06		9%E 		Caprabo  Alimentacion	
+piso    1-A	90	07		9%E  16%C 	VH;2	 
+piso    1-B	100	08		10%E 16%C 	VH;3
+piso    1-C	100	09		10%E 16%C 	VNH;3
+piso    2-A	150	01		15%E 16%C 	VH;4
+piso    2-B	150	02		15%E 16%C 	VH;4
+piso    2-C	150	03		15%E 16%C 	VNH;4
+plaza   P01	12	14		10%G 		A;N	 
+plaza   P02	12	15		10%G 		A;N
+plaza   P03	15	01		10%G 		A;S	
+plaza   P04	15	02		10%G 		A;S	
+plaza   P05	15	03		10%G 		A;S	
+plaza   P06	15	04		10%G 		C;N
+plaza   P07	15	10      	10%G 		C;N	
+plaza   P08	15	11		10%G 		C;N	
+plaza   P09	15	12		10%G 		C;N	
+plaza   P10	15	13		10%G 		C;N	

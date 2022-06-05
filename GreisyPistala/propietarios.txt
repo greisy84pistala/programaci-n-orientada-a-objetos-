@@ -1,0 +1,15 @@
+   **** propietarios ****
+
+C.	Nombre Propietario      poblacion    email			Propiedades
+01	Jorge Salas		Barcelona    jsalas@uoc.edu		2-A P03 
+02	Jaime Rodriguez		Barcelona    jrodriguez@uoc.edu		2-B P04 
+03	Nestor Crespo		Barcelona    ncrespo@uoc.edu		2-C P05 
+04	Maria Gutierrez		Barcelona    mgutierrez@uoc.edu		0-A P06 
+05	Miguel Palacios		Barcelona    mpalacios@uoc.edu		0-B 
+06	Nuria Mas		Barcelona    nmas@uoc.edu		0-C 
+07	Ricardo Torres		Barcelona    rtorres@uoc.edu		1-A 
+08	Tomas Asensio		Barcelona    tasensio@uoc.edu		1-B 
+09	Enrique Alos		Barcelona    ealos@uoc.edu		1-C 
+10	Pedro Navarra		Barcelona    pnavarra@uoc.edu		P07 
+11	Sergio Briban		Barcelona    sbriban@uoc.edu		P08 
+12	Carlos Escudero		Barcelona    cescudero@uoc.edu		P09 
